@@ -82,7 +82,7 @@ export default function ExplorerPanel({ chains }) {
         <div className="mono small">
           <p><b>Address:</b> {result.address}</p>
           <p><b>Balance:</b> {result.balance} {chain.symbol || ''}</p>
-          <p><b>Nonce:</b> {result.nonce}</p>
+          <p><b>Tx Count:</b> {result.nonce}</p>
           <p><b>Type:</b> {result.isContract ? 'Contract' : 'EOA'}</p>
         </div>
       );
